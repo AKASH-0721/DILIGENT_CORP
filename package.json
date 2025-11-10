@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce-website",
+  "version": "1.0.0",
+  "description": "A modern E-Commerce website with React.js and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-server": "cd backend && npm install",
+    "install-client": "cd frontend && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["ecommerce", "react", "nodejs", "mongodb"],
+  "author": "Rovo Dev",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
