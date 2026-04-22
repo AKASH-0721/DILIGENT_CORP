@@ -14,6 +14,7 @@ const ProductCard = ({ product }) => {
     e.stopPropagation();
     
     if (product.stock === 0) return;
+    console.log(product)
     
     setIsLoading(true);
     const result = await addToCart(product._id, 1);
