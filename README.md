@@ -1,6 +1,6 @@
-# ShopEase - E-Commerce Website
+# ShopEase – Prompt-Engineered MERN E-Commerce Platform
 
-A modern, responsive E-Commerce website built with React.js frontend, Node.js/Express.js backend, and MongoDB Atlas database. The application enables users to explore products, view detailed product information, and manage a shopping cart with persistent state.
+Developed a responsive full-stack e-commerce platform using React.js, Node.js, Express.js, and MongoDB Atlas through prompt engineering. Implemented product browsing, detailed product pages, shopping cart functionality, and persistent state management.
 
 ## 🚀 Features
 
@@ -238,7 +238,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - MongoDB Atlas for database hosting
 - Unsplash for product images
 - Inter font family for typography
-
-## 📞 Support
-
-For support, email support@shopease.com or create an issue on GitHub.
